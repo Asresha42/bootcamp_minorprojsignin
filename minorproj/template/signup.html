@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title> Sign Up</title>
+    <link rel= "stylesheet" href='{%static "signup.css"%}'/>
+</head>
+<body>
+<div class="topnav" style="width: 100%">
+    <img src= consultadd.jpg>
+</div>
+<div class="row"style="width :100px; height:200px; float:left"> 
+    <img src="table-with-grains-vegetables-fruit-768.jpg">
+    
+</div>
+
+<div id="Login-Box">
+    <form action="{% url 'submit'%}">
+    <div class= "left">
+        <h1>Welcome Back!</h1>
+
+        <input type="text" name="Username" placeholder="Username"/><br><br>
+        <input type="text" name="Emailid" placeholder="Enter Email Id"/><br><br>
+        <input type="text" name="Password" placeholder="Enter Password"/><br><br>
+        <input type="Submit" name="submit" value="Sign In"/><br><br>
+        <h>Don't have an account? SignUp!</h>
+
+
+
+    </div>
+
+<!-- <div class="right">-->
+<!--     <div class="loginwidth">-->
+<!--     <button onclick="window.location.href='https://www.facebook.com/';"class="social-signin facebook">Facebook</button>-->
+<!--     <button onclick="window.location.href='https://accounts.google.com/signin/v2/identifier?service=CPanel&flowName=GlifWebSignIn&flowEntry=ServiceLogin';"class="social-signin google">Google+</button>-->
+<!--     </div>-->
+ </div>
+</form>
+</div>
+</div>
+</body> 
+</html>
+
