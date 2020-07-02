@@ -112,8 +112,7 @@ button.social-signin:active{
 }
 
 button.social-signin.facebook{
-    top: 0;
-    left: 150px;
+
     background-color: white;
     color: blue;
     border-color: blue;
