@@ -1,23 +1,26 @@
 {% load static %}
-
 <!DOCTYPE html>
 
 <html>
 <head>
-    <title> Sign Up</title>
-    <link rel= "stylesheet" href='{%static "signup.css"%}'/>
+    <title> Sign In</title>
+    <link rel= "stylesheet" href='{%static "signin.css"%}'/>
+
 </head>
+
+
 <body>
 <div class="topnav" style="width: 100%">
-    <img src= consultadd.jpg>
+    <img src= '{% static "consultadd.jpg" %}'>
 </div>
-<div class="row"style="width :100px; height:200px; float:left"> 
-    <img src="table-with-grains-vegetables-fruit-768.jpg">
-    
+<div class="row"style="width :100px; height:200px; float:left">
+    <img src= '{% static "table-with-grains-vegetables-fruit-768.jpg" %}'>
+
 </div>
+<form action="{% url 'submit'%}">
 
 <div id="Login-Box">
-    <form action="{% url 'submit'%}">
+
     <div class= "left">
         <h1>Welcome Back!</h1>
 
@@ -33,13 +36,12 @@
 
 <!-- <div class="right">-->
 <!--     <div class="loginwidth">-->
-<!--     <button onclick="window.location.href='https://www.facebook.com/';"class="social-signin facebook">Facebook</button>-->
+<!--     <button onclick="window.location.href='https://www.facebook.com/';"class="social-signin facebook"><i class="fa fa-facebook fa-fw">Facebook</i></button>-->
 <!--     <button onclick="window.location.href='https://accounts.google.com/signin/v2/identifier?service=CPanel&flowName=GlifWebSignIn&flowEntry=ServiceLogin';"class="social-signin google">Google+</button>-->
-<!--     </div>-->
- </div>
+<!--   </div>-->
+<!-- </div>-->
+</div>
 </form>
-</div>
-</div>
-</body> 
+</body>
 </html>
 
