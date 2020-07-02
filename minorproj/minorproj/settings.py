@@ -72,12 +72,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'minorproj.wsgi.application'
 
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_HOST_USER = 'asresha42@gmail.com'
-# DEFAULT_FROM_EMAIL = 'asresha42@gmail.com'
-# EMAIL_HOST_PASSWORD = 'asha4296'
-# EMAIL_PORT = 587
-# EMAIL_USE_TLS = True
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
