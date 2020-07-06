@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'minorproj.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'minor',
-        'USER': 'postgres',
-        'PASSWORD': '99880212',
-        'HOST': '127.0.0.1',
+        'NAME': 'myproject',
+        'USER': 'asha',
+        'PASSWORD': 'asha',
+        'HOST': 'localhost',
         'PORT': '5432',
 
     }
